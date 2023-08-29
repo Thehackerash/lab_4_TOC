@@ -7,6 +7,7 @@ public class StringGeneration {
         int firstLength = sc.nextInt();
         System.out.println("Enter the second length:");
         int secondLength = sc.nextInt();
+        sc.close();
         String[] arr = {"0", "1"};
         for (int i = firstLength; i <= secondLength; i++) {
             generateStrings(arr, "", arr.length, i);
